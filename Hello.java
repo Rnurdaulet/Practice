@@ -1,5 +1,21 @@
-import java.util.Scanner;
+/*Read different types of data from standard input, process them as shown in output format and print the answer to standard output.
+Input format:
+First line contains integer N.
+Second line contains string S.
 
+Output format:
+First line should contain NГ—2.
+Second line should contain the same string 
+S.
+
+Constraints:
+
+0в‰¤Nв‰¤10
+1в‰¤|S|в‰¤15 where 
+|S|= length of string 
+*/
+
+import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
@@ -13,7 +29,7 @@ public class Hello {
 			
 		}
 		else {
-			System.out.println("n не должно быть больше 0 или меньше  10");
+			System.out.println("Error int");
 		}
 		if(s.length()>=1&& s.length()<=15)
 		{
@@ -21,7 +37,7 @@ public class Hello {
 		}
 		else {
 			
-			System.out.println("Ошибка");
+			System.out.println("Error String");
 		}
 	}
 
