@@ -1,6 +1,6 @@
 # Practice
-Basic:https://www.hackerearth.com/practice/basic-programming/io/
-Algorithm(Data Structures):
+#Basic:https://www.hackerearth.com/practice/basic-programming/io/
+#Algorithm(Data Structures):
  1)https://www.hackerearth.com/problem/algorithm/i-demand-trial-by-combat-13/
  2)https://www.hackerearth.com/problem/algorithm/frodo-and-ring/
 +3)https://www.hackerearth.com/problem/algorithm/the-lord-of-the-strings-1/
