@@ -21,15 +21,11 @@ import java.util.Arrays;
 public class Monk {
  
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
-		
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
-		int[] N = new int[T]; //Matrix indieces
-		int[] K = new int[T];; //curses
+		int[] N = new int[T]; 
+		int[] K = new int[T];; 
 		int[][][] A = new int[T][][];
-		
 		
 		for(int i=0;i<T;i++){
 			String[] str = br.readLine().split(" ");
@@ -47,13 +43,11 @@ public class Monk {
 				}
 			}
 			
-			
 			int discomfortLevel = 0 ;
 			Arrays.sort(rowCount);
 			Arrays.sort(columnCount);
 			for(int k=0;k<K[i];k++){
 				
-                //choose row or Column
 				int minCount = rowCount[0];
 				boolean isRow = true;
 				
@@ -62,7 +56,7 @@ public class Monk {
 					isRow = false;
 				}
 				
-				//set discomfor and increase the values
+			
 				discomfortLevel  += minCount;
 				if(isRow){
 				rowCount[0] += N[i];
