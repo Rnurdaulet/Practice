@@ -1,7 +1,18 @@
+/*
+https://www.hackerearth.com/problem/algorithm/monk-in-the-grass-fields/
+Our code monk, high on excitement after solving the rest of the problems , goes on a trek in the mountains . 
+On his way, he encounters Janemba, the evil magician! Janemba takes our monk to a poison field and plays a game with him described as follows: 
+The poison field is described as NxN matrix,divided into N * N cells. Each cell of the field has a value of discomfort in it pertaining to the poison content. Monk has been cursed with K curses. In each curse, the monk must do one of the following: 
+
+1) Choose one row of the field and consume the poisonous fumes from all the cells in that row. The discomfort caused is the sum of discomfort from each cell in the row. After consuming, the discomfort of all cells in the row increases by one. 
+2) Choose one column of the field and consume the poisonous fumes from all the cells in that column. The discomfort caused is the sum of discomfort from each cell in the column. After consuming, the discomfort of all cells in the column increases by one. 
+
+Our monk has a level of tolerance. A very high level of discomfort will cause him to die! 
+Help him out by finding the Minimum discomfort possible by optimally completing the curses.
+
+*/
+
 package sevennationarmy;
-
-
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
