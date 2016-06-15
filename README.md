@@ -9,5 +9,5 @@ https://www.hackerearth.com/practice/basic-programming/io/
 +4)https://www.hackerearth.com/problem/algorithm/monk-in-the-grass-fields/
  5)https://www.hackerearth.com/problem/algorithm/shantam-and-richness-1/
 +6)https://www.hackerearth.com/problem/algorithm/remove-friends-5/
- 7)https://www.hackerearth.com/problem/algorithm/karan-and-trees/
++7)https://www.hackerearth.com/problem/algorithm/karan-and-trees/
 
