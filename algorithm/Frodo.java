@@ -1,3 +1,11 @@
+/*https://www.hackerearth.com/problem/algorithm/frodo-and-ring/
+*The middle earth is in danger as Sauron has prepared an army of Orcs to destroy the men. To kill Sauron and save the world we need to destroy his Ring and it is only possible if the ring is thrown in the lava ( Magma ). Gandalf and Frodo accepted this challenge and decided to save the world at any cost. Gandalf found one map which shows the way to lava. The Map is represented as a matrix which shows the locations of Dragons, Trees and Lava (located at bottom-right corner). Frodo can enter in the matrix only at the cell ( 1 , 1)(top-left corner) and he has to reach the cell ( N , M ).
+
+The matrix has N rows and M columns. It starts with ( 1 , 1). Lava is in ( N , M)th cell. Rest of the cells are occupied either by Trees or Dragons. He can only move right or down from current position.
+
+He starts with zero energy. If he enters in a cell that has Tree (T), he can eat some fruits and gain 150 units energy. But If he enters in Dragon's (D) cell, then he needs 100 units energy to kill Dragon. If he doesn't have the required energy then Dragon will kill Frodo.
+
+Gandalf and Frodo have not studied Algorithm Techniques from Sir Zaveri ( :P ). But they know you studied from him. So help Frodo and Gandalf in destroying the Ring and save the world.*/
 package sevennationarmy;
 
 import java.util.Scanner;
